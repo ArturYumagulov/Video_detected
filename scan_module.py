@@ -2,11 +2,6 @@ from scaning_path_save_path import scan_yandex, yandex_upload, scan_dir, proxy_p
 from threading import Timer
 import yadisk
 
-
-id = "225715a2b5c54bd1869461334e486091"
-pas = "24ae9c3e085b4f4cb876cd7bb1721eac"
-
-
 ya = yadisk.YaDisk(id, pas, token)
 
 
